@@ -27,10 +27,10 @@ def gaussian_kernel(kernel_size=5, sigma=1.0):
 
 def gaussian_filter(img, kernel_size=5, sigma=1.0):
     kernel = gaussian_kernel(kernel_size, sigma)
-    result = convolve2d(img, kernel)
+    res = convolve2d(img, kernel)
 
-    result = np.rint(result)
-    result = np.clip(result, 0, 255)
-    result = result.astype(np.uint8)
+    res = np.rint(res)
+    res = np.clip(res, 0, 255)
+    res = res.astype(np.uint8)
 
-    return result
+    return res
