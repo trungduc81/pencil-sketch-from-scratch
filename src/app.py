@@ -21,7 +21,6 @@ PENCIL_PRESETS = {
     "Mềm mại": (31, 7.0)
 }
 
-
 class PencilSketchApp:
     def __init__(self, root):
         self.root = root
@@ -207,12 +206,10 @@ class PencilSketchApp:
         self.status.set(f"Đã lưu kết quả: {Path(output_path).name}")
         messagebox.showinfo("Lưu thành công", "Tranh chì đã được lưu")
 
-
 def main():
     root = tk.Tk()
     PencilSketchApp(root)
     root.mainloop()
-
 
 if __name__ == "__main__":
     main()
