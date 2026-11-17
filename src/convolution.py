@@ -47,9 +47,9 @@ def convolve2d(img, kernel):
 
     result = np.zeros((h,w), dtype=np.float32)
 
-    for i in range(h):
-        for j in range(w):
-            region = padded_img[i:i + kernel_h,j:j + kernel_w]
-            result[i,j] = np.sum(region * flipped_kernel)
+    for i in range(kernel_h):
+        for j in range(kernel_w):
+            region = padded_img[i:i + h,j:j + w]
+            result += region * flipped_kernel[i, j]
 
     return result
