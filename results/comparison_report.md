@@ -1,4 +1,4 @@
-# Báo Cáo Thực Nghiệm & Đối Chứng Với OpenCV (6 Ảnh x 9 Tổ Hợp = 54 Cấu Hình)
+# Báo Cáo Thực Nghiệm & Đối Chứng Với OpenCV (8 Ảnh x 9 Tổ Hợp = 72 Cấu Hình)
 
 | Ảnh gốc | Kích thước | STT | Mức giữ chi tiết | Kiểu nét chì | Tự code (s) | OpenCV (s) | MAE | MSE | PSNR (dB) |
 |---|---|---:|---|---|---:|---:|---:|---:|---:|
@@ -29,6 +29,15 @@
 | 1795005890872_5032108214138270531_5032108214138270531_9ac5da54235a7d0b6e2e8d5027b1455d.jpg | 1448x1086 | 7 | Mịn, ít nhiễu (7, 1.5) | Sắc nét (11, 3.0) | 0.998 | 0.0636 | 0.2749 | 0.3422 | 52.79 |
 | 1795005890872_5032108214138270531_5032108214138270531_9ac5da54235a7d0b6e2e8d5027b1455d.jpg | 1448x1086 | 8 | Mịn, ít nhiễu (7, 1.5) | Tự nhiên (21, 5.0) | 2.486 | 0.0686 | 0.2645 | 0.3262 | 53.00 |
 | 1795005890872_5032108214138270531_5032108214138270531_9ac5da54235a7d0b6e2e8d5027b1455d.jpg | 1448x1086 | 9 | Mịn, ít nhiễu (7, 1.5) | Mềm mại (31, 7.0) | 5.875 | 0.0734 | 0.2806 | 0.3746 | 52.40 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 1 | Nhiều chi tiết (3, 0.8) | Sắc nét (11, 3.0) | 0.079 | 0.0318 | 0.0131 | 0.2920 | 53.48 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 2 | Nhiều chi tiết (3, 0.8) | Tự nhiên (21, 5.0) | 0.205 | 0.0071 | 0.0128 | 0.2227 | 54.65 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 3 | Nhiều chi tiết (3, 0.8) | Mềm mại (31, 7.0) | 0.439 | 0.0071 | 0.0344 | 1.2510 | 47.16 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 4 | Cân bằng (5, 1.0) | Sắc nét (11, 3.0) | 0.082 | 0.0063 | 0.0300 | 0.3123 | 53.19 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 5 | Cân bằng (5, 1.0) | Tự nhiên (21, 5.0) | 0.211 | 0.0079 | 0.0293 | 0.2486 | 54.18 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 6 | Cân bằng (5, 1.0) | Mềm mại (31, 7.0) | 0.425 | 0.0074 | 0.0507 | 1.2766 | 47.07 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 7 | Mịn, ít nhiễu (7, 1.5) | Sắc nét (11, 3.0) | 0.093 | 0.0066 | 0.0290 | 0.3109 | 53.20 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 8 | Mịn, ít nhiễu (7, 1.5) | Tự nhiên (21, 5.0) | 0.227 | 0.0071 | 0.0284 | 0.2497 | 54.16 |
+| chup-anh-nguoc-sang-la-gi-nhung-ky-thuat-chup-nguoc-sang_022927231.png | 750x465 | 9 | Mịn, ít nhiễu (7, 1.5) | Mềm mại (31, 7.0) | 0.462 | 0.0069 | 0.0499 | 1.2769 | 47.07 |
 | day-chuyen-han-tu-dong-bang-ro-bot-tai-nha-may-thaco-mazda-khu-cong-nghiep-thaco-chu-lai-quang-nam-1-2560x1440.jpg | 2560x1440 | 1 | Nhiều chi tiết (3, 0.8) | Sắc nét (11, 3.0) | 2.318 | 0.1835 | 0.0517 | 0.0700 | 59.68 |
 | day-chuyen-han-tu-dong-bang-ro-bot-tai-nha-may-thaco-mazda-khu-cong-nghiep-thaco-chu-lai-quang-nam-1-2560x1440.jpg | 2560x1440 | 2 | Nhiều chi tiết (3, 0.8) | Tự nhiên (21, 5.0) | 6.331 | 0.1550 | 0.0528 | 0.0694 | 59.72 |
 | day-chuyen-han-tu-dong-bang-ro-bot-tai-nha-may-thaco-mazda-khu-cong-nghiep-thaco-chu-lai-quang-nam-1-2560x1440.jpg | 2560x1440 | 3 | Nhiều chi tiết (3, 0.8) | Mềm mại (31, 7.0) | 10.768 | 0.1459 | 0.0668 | 0.0978 | 58.23 |
@@ -56,3 +65,12 @@
 | nganh-cong-nghiep-nang.jpg | 800x518 | 7 | Mịn, ít nhiễu (7, 1.5) | Sắc nét (11, 3.0) | 0.237 | 0.0161 | 0.1604 | 0.3146 | 53.15 |
 | nganh-cong-nghiep-nang.jpg | 800x518 | 8 | Mịn, ít nhiễu (7, 1.5) | Tự nhiên (21, 5.0) | 0.581 | 0.0171 | 0.1572 | 0.2666 | 53.87 |
 | nganh-cong-nghiep-nang.jpg | 800x518 | 9 | Mịn, ít nhiễu (7, 1.5) | Mềm mại (31, 7.0) | 1.153 | 0.0180 | 0.1849 | 0.3440 | 52.76 |
+| OIP.jpg | 474x700 | 1 | Nhiều chi tiết (3, 0.8) | Sắc nét (11, 3.0) | 0.074 | 0.0062 | 0.0407 | 0.2030 | 55.05 |
+| OIP.jpg | 474x700 | 2 | Nhiều chi tiết (3, 0.8) | Tự nhiên (21, 5.0) | 0.203 | 0.0068 | 0.0556 | 0.3505 | 52.68 |
+| OIP.jpg | 474x700 | 3 | Nhiều chi tiết (3, 0.8) | Mềm mại (31, 7.0) | 0.411 | 0.0067 | 0.1247 | 1.0146 | 48.07 |
+| OIP.jpg | 474x700 | 4 | Cân bằng (5, 1.0) | Sắc nét (11, 3.0) | 0.084 | 0.0060 | 0.0990 | 0.2624 | 53.94 |
+| OIP.jpg | 474x700 | 5 | Cân bằng (5, 1.0) | Tự nhiên (21, 5.0) | 0.204 | 0.0066 | 0.1119 | 0.4083 | 52.02 |
+| OIP.jpg | 474x700 | 6 | Cân bằng (5, 1.0) | Mềm mại (31, 7.0) | 0.439 | 0.0074 | 0.1798 | 1.0654 | 47.86 |
+| OIP.jpg | 474x700 | 7 | Mịn, ít nhiễu (7, 1.5) | Sắc nét (11, 3.0) | 0.093 | 0.0068 | 0.0758 | 0.2424 | 54.28 |
+| OIP.jpg | 474x700 | 8 | Mịn, ít nhiễu (7, 1.5) | Tự nhiên (21, 5.0) | 0.225 | 0.0066 | 0.0895 | 0.3898 | 52.22 |
+| OIP.jpg | 474x700 | 9 | Mịn, ít nhiễu (7, 1.5) | Mềm mại (31, 7.0) | 0.430 | 0.0069 | 0.1578 | 1.0433 | 47.95 |
